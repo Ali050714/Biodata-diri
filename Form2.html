@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        fieldset {
+            background-color: aqua;
+        }
+        legend {
+            background-color: purple;
+            color: white;
+            padding: 4px 10px;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        
+            
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+<html>
+<body>
+        <fieldset>
+                    <legend>BIODATA PRIBADI</legend>
+                                <label for="NAMA">Nama :</label>
+                                <input type="text" value="" placeholder="Nama Lengkap"><br><br>
+                                <label for="ALAMAT">Alamat :</label>
+                                <textarea type="text" id="ALAMAT" value="" placeholder="Masukan Alamat Anda" rows="3"></textarea><br><br>
+                                <label for="TTL">TTL :</label>
+                                <input type="text" value="" placeholder="Tempat Lahir">
+                                <input type="date"><br><br>
+                                <label for="Kelamin">Jenis Kelamin :</label>
+                                <input type="radio">Laki-laki 
+                                <input type="radio">Perempuan <br><br>
+                                <label for="Agama">Agama :</label>
+                                        <select id="Agama" name="Agama" form="Agama form">
+                                                    <option value="Islam">Islam</option>
+                                                    <option value="Kristen">Kristen</option>
+                                                    <option value="Budha">Budha</option>
+                                                    <option value="Khongucu">Khongucu</option>
+                                                    <option value="Ateis">Ateis</option>
+                                                    <option value="Hindu">Hindu</option>
+                                         </select><br><br>
+                                <label for="Hobby">Hobby :</label>
+                                <input type="checkbox">Olahraga 
+                                <input type="checkbox">Membaca
+                                <input type="checkbox">Mancing
+                                <input type="checkbox">Masak
+                                <input type="checkbox">Berenang <br><br>
+                                <label for="Motto">Motto :</label>
+                                <textarea type="text" value="" placeholder="Isikan Motto Anda" rows="3"></textarea><br><br>
+                                <input type="submit" value="Reset">
+                                <input type="submit" value="Simpan">
+        </fieldset>
+</body>
+</html>
